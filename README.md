@@ -11,7 +11,7 @@ and the **calculated average** on the FPGA’s **seven-segment display (SSD)**.
 This project was originally developed in 2024, in the **first year of university**.
 
 ## ✨ Features
-- 🧮 **Rolling Average Filter**: Supports 2, 4, 8, or 16 sample averages.  
+- ➗ **Rolling Average Filter**: Supports 2, 4, 8, or 16 sample averages.  
 - 🔀 **Multiple Data Sources**:
   - Constant 0 (test mode)  
   - Square wave  
