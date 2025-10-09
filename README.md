@@ -1,4 +1,4 @@
-# 🎛️ Rolling Average (VHDL, Vivado)
+# 🔢 Rolling Average (VHDL, Vivado)
 
 ## 📖 Overview
 This project implements a **rolling average digital filter** on a  
