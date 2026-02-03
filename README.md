@@ -1,6 +1,6 @@
 # 🔢 Rolling Average (VHDL, Vivado)
 
-## 📖 Overview
+##  Overview
 This project implements a **rolling average digital filter** on a  
 **Xilinx/Digilent Spartan 3 XC3S200 FPGA** using **VHDL in Vivado**.
 
@@ -10,19 +10,19 @@ and the **calculated average** on the FPGA’s **seven-segment display (SSD)**.
 
 This project was originally developed in 2024, in the **first year of university**.
 
-## ✨ Features
-- ➗ **Rolling Average Filter**: Supports 2, 4, 8, or 16 sample averages.  
-- 🔀 **Multiple Data Sources**:
+##  Features
+-  **Rolling Average Filter**: Supports 2, 4, 8, or 16 sample averages.  
+-  **Multiple Data Sources**:
   - Constant 0 (test mode)  
   - Square wave  
   - Repeated student ID sequences  
   - Pseudo-random sequences (LFSR, 4-bit and 8-bit)  
-- 🔢 **Seven-Segment Display Output**: Shows input value + average in real time.  
-- ⏱ **Clock Management**: Divided down for 1 Hz data clock operation.  
+-  **Seven-Segment Display Output**: Shows input value + average in real time.  
+-  **Clock Management**: Divided down for 1 Hz data clock operation.  
 
 
 
-## 🏗 Project Structure
+##  Project Structure
 The design is modular and built from the following main components:
 
 - `Clock_Divider` → Generates slower clock signals  
@@ -36,7 +36,7 @@ The design is modular and built from the following main components:
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 1. **Data Source Selection**  
    - `sel1` (3-bit): Chooses the data generator mode.  
    - `sel2` (3-bit): Sets averaging window (2, 4, 8, 16 samples).  
